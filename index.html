@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0 use-scalable=no" />
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital@1&family=Teko&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Document</title>
+
+</head>
+<body>
+
+
+
+    <div class="container">
+
+        <div class="heading">
+            <h1>Tulip Survey Form</h1>
+            <p id="para">Help us to make a better platform</p>
+        </div><br><br>
+
+        <label>Name</label><br><br>
+        <input type="name" name="name" placeholder="Enter your name" class="box"><br><br>
+        <label>Email</label><br><br>
+        <input type="email" name="email" placeholder="Enter your email" class="box"><br><br>
+        <label>Contact Number</label><br><br>
+        <input type="number" name="number" placeholder="Enter your contact number" class="box"><br><br>
+        <label>Age</label><br><br>
+        <input type="number" name="age" placeholder="Enter your age" id="myage" class="box"><br><br>
+        <label>Country</label><br><br>
+        <div id="option1">     
+         <select>
+            <option name="select your Countryole">Select your Country</option>
+            <option value="India">India</option>
+            <option value="USA">USA</option>
+            <option value="Japan">Japan</option>
+            <option value="Bangladesh">Bangladesh</option>
+        </select>
+        </div><br><br>
+        <label>Which option best describes your current role?</label><br><br>
+
+        <div id="option1">
+            <select>
+                <option name="select your role">Select your role</option>
+                <option value="student">Student</option>
+                <option value="Working professional">Working Professional</option>
+                <option value="Housemaker">Housemaker</option>
+                <option value="Others">Others</option>
+            </select>
+        </div><br>
+
+        <label>How is likely that you would recommend Tulip to a friend?</label><br><br>
+        <input type="radio" name="radio" class="larger">&nbsp&nbsp&nbspDefinitely<br><br>
+        <input type="radio" name="radio" class="larger">&nbsp&nbsp&nbspMay be<br><br>
+        <input type="radio" name="radio" class="larger">&nbsp&nbsp&nbspNot Sure <br><br><br>
+        <label>Select the best service provided by us?</label> <br><br>
+
+        <div id="option2">
+            <select>
+                <option name="select an option">Select an option</option>
+                <option value="products">Quality of products</option>
+                <option value="Services">Services</option>
+                <option value="delivery">Delivery</option>
+                <option value="support">Customer Support</option>
+                
+            </select>
+        </div><br>
+
+        <label id="head2"> What would you like to see improved? </label><br><br>
+        <div id="content2">
+        <input type="checkbox" name="checkbox" class="larger"><label id="sd"> Quality of products </label><br><br>
+        <input type="checkbox" name="checkbox" class="larger"><label id="sd"> Delivery Services </label><br><br>
+        <input type="checkbox" name="checkbox" class="larger"><label id="sd"> Customer Support </label><br><br>
+        <input type="checkbox" name="checkbox" class="larger"><label id="sd"> Price Range </label><br><br>
+        <input type="checkbox" name="checkbox" class="larger"><label id="sd"> Product Brands </label><br><br>
+        <input type="checkbox" name="checkbox" class="larger"><label id="sd"> Product Packaging </label><br><br>
+        </div>
+
+        <label id="head2">Any suggestions?</label><br>
+        <textarea placeholder="Write your comment here..."></textarea> <br>
+        <button class="btn"><h3>Submit</h3></button>
+
+
+    </div>
+</body>
+</html>
